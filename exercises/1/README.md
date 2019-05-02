@@ -35,8 +35,8 @@ A quick exercise should help demonstrate the issue.
 * Add the below script to the `header` element in `page.html`:
     ```
     <script>
-      var h1 = document.getElementsByTagName("h1")[0];
-      h1.innerHTML = "Testing, 1...2...";
+      var h1 = document.querySelector("h1");
+      h1.innerText = "Testing, 1...2...";
     </script>
     ```
 * Now reload the page. You should see an error in the console such as this: ![dom error](../../static/img/dom_error.png)
@@ -46,8 +46,10 @@ Questions:
 
 * What does this error mean?
 * Why does it happen?
+ 
+> *HINT 1:* Try clicking the `Learn More` link in the console error to get more details on the nature of the error.
 
-> *HINT:* Try clicking the `Learn More` link in the console error to get more details on the nature of the error.
+> *HINT 2:* In the developer toolbar, [set a breakpoint][] in the Javascript where the `h1` element is selected, then step through the code to see what happens.
 
 So we understand the nature of the problem. Is there a way to fix this error while keeping the script tag and the code it contains somewhere *inside the HTML document*?
 
@@ -57,5 +59,6 @@ What about putting the Javascript in an external file? Does this resolve the pro
 
 *HINT:* Check out the [`<script>` tag documentation][].
 
+[set a breakpoint]: https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Set_a_breakpoint
 [`<script>` tag documentation]: https://www.w3schools.com/tags/tag_script.asp
 [Introduction to the DOM]: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
