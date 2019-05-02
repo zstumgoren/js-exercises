@@ -6,7 +6,7 @@ In order to add interactivity to web pages and build interactive data visualizat
 
 > "The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web...The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page." ~ [Introduction to the DOM][] (MDN)
 
-Here's an [image from W3C] that illustrates the above definition point:
+Here's an [image from W3C] that illustrates the above definition:
 
 [image from W3C]: http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/js/js_htmldom.asp.html
 
