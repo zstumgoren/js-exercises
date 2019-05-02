@@ -39,7 +39,11 @@ A quick exercise should help demonstrate the issue.
       h1.innerText = "Testing, 1...2...";
     </script>
     ```
-* Now reload the page. You should see an error in the console such as this: ![dom error](../../static/img/dom_error.png)
+* Now reload the page. 
+
+You should see an error in the console:
+
+![dom error](../../static/img/dom_error.png)
 
 
 Questions: 
