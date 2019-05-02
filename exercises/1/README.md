@@ -28,9 +28,10 @@ If a page element doesn't yet exist in the DOM and you try to change it's style 
 
 *This is a frequent source of confusion for new Javascript programmers.*
 
-A quick exercise should help demonstrate the issue. 
+A quick exercise should help demonstrate the issue. Below, we attempt to add some basic Javascript to update the text of the `H1` element. It does not go so well...
 
-* Open `exercises/1/page.html` file from this repo in your browser (make sure you open the locally downloaded copy, not the copy on Github)
+* Clone this repo: `git clone git@github.com:zstumgoren/js-exercises.git`
+* Open `exercises/1/page.html` file from this repo in your browser (*make sure you open the locally downloaded copy, not the copy on Github*)
 * Open the browser's developer toolbar and go to the `Console` tab
 * Add the below script to the `header` element in `page.html`:
     ```
